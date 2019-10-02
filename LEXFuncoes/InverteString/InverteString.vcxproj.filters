@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="InverteString.h">
+    <ClInclude Include="TestarInverteString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestarInverteString.h">
+    <ClInclude Include="StringManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InverteString.cpp">
+    <ClCompile Include="TestarInverteString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestarInverteString.cpp">
+    <ClCompile Include="StringManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

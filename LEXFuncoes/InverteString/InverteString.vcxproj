@@ -146,11 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="InverteString.h" />
+    <ClInclude Include="StringManager.h" />
     <ClInclude Include="TestarInverteString.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InverteString.cpp" />
+    <ClCompile Include="StringManager.cpp" />
     <ClCompile Include="TestarInverteString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
