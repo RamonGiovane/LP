@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InverteString", "InverteString\InverteString.vcxproj", "{E0A88D81-C4CE-4AAC-9B54-671768FCEEE7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringManager", "StringManager\InverteString.vcxproj", "{E0A88D81-C4CE-4AAC-9B54-671768FCEEE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
