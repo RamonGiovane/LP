@@ -90,9 +90,11 @@ int iniciar() {
 		}
 
 	} // while
+
+	return 1;
 }
 
 int main() {
 	EntradaESaida::localizacao();
-	iniciar();
+	return iniciar();
 }

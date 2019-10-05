@@ -16,7 +16,9 @@ private:
 	void imprimirLivro(Livro livro);
 };
 
+int iniciar();
+int main();
 
 #endif // !CONTROLE_DA_BIBLIOTECA_H
 
-int main();
+
