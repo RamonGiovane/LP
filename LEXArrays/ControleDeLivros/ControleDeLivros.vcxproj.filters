@@ -15,25 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TestarInverteString.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StringManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="EntradaESaida.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Livro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Biblioteca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControleDaBiblioteca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="EntradaESaida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Livro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Biblioteca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControleDaBiblioteca.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestarInverteString.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StringManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EntradaESaida.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Text Include="EnunciadoDoExercicio.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

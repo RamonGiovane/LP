@@ -1,0 +1,35 @@
+Crie uma classe denominada Livro com os seguintes atributos privados: código, título, nome do
+autor e da editora do livro. Defina métodos nessa classe para:
+	- inicializar os atributos com valores default;
+	- iniciar os atributos com valores especificados pelo usuário da classe;
+	- consultar e modificar os atributos da classe.
+
+Use a classe Livro para escrever uma classe Biblioteca com as seguintes propriedades. Use os
+protótipos de função abaixo para desenvolver os serviços (métodos) da Biblioteca.
+	a) Um array de objetos da classe Livro para armazenar 500 livros na biblioteca.
+	b) Um método para adicionar um livro na biblioteca.
+	void adicionarLivro(Livro livro);
+
+	c) Um método para obter um livro da biblioteca segundo sua posição no array.
+
+	Livro obterLivro(int posicao);
+
+	d) Um método para procurar um livro pelo título. Quando o livro for encontrado a função
+	deve retornar a posição do objeto Livro no array de objetos da biblioteca, caso contrário
+	retorna -1.
+
+	int procurarLivro (string titulo);
+	e) Um método para calcular o total de livros da biblioteca.
+	int quantidadeLivros();
+
+Use essas classes para escrever um programa que possui os seguintes serviços:
+	- Cadastrar: solicita ao usuário os dados de um livro para cadastrar na biblioteca.
+	- Consultar editora: pergunta ao usuário o nome de uma editora e lista os dados de todos os
+	livros dessa editora cadastrados na biblioteca. Se nenhum livro for
+	localizado, exibe a mensagem Não há nenhum livro dessa editora na biblioteca.
+	- Consultar autor: pergunta ao usuário o nome do autor e lista os dados de todos os livros
+	desse autor cadastrados na biblioteca. Se nenhum livro for encontrado, exibe
+	a mensagem Não há nenhum livro desse autor na biblioteca.
+	- Consultar livro: pergunta o nome do livro ao usuário e lista os dados do livro cujo nome seja
+	igual ao fornecido. Se nenhum livro for localizado exibe, a mensagem Não há
+	nenhum livro com esse nome na biblioteca.

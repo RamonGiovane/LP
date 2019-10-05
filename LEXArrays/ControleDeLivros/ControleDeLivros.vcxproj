@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E0A88D81-C4CE-4AAC-9B54-671768FCEEE7}</ProjectGuid>
+    <ProjectGuid>{02A17482-4602-49D5-ADE6-E9BF06B839F5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>InverteString</RootNamespace>
+    <RootNamespace>ControleDeLivros</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>StringManager</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,14 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="EntradaESaida.h" />
-    <ClInclude Include="StringManager.h" />
-    <ClInclude Include="TestarInverteString.h" />
+    <ClCompile Include="Biblioteca.cpp" />
+    <ClCompile Include="ControleDaBiblioteca.cpp" />
+    <ClCompile Include="EntradaESaida.cpp" />
+    <ClCompile Include="Livro.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EntradaESaida.cpp" />
-    <ClCompile Include="StringManager.cpp" />
-    <ClCompile Include="TestarInverteString.cpp" />
+    <ClInclude Include="Biblioteca.h" />
+    <ClInclude Include="ControleDaBiblioteca.h" />
+    <ClInclude Include="EntradaESaida.h" />
+    <ClInclude Include="Livro.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EnunciadoDoExercicio.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

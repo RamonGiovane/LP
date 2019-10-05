@@ -2,7 +2,7 @@
 #include <iostream>
 #include <conio.h>
 #include "TestarInverteString.h"
-
+#include "EntradaESaida.h"
 using namespace std;
 
 void localizacao() {
@@ -40,6 +40,7 @@ void testarPesquisa(StringManager manager, char abacate[], char avocado[], char 
 
 int main() {
 	localizacao();
+	teste();
 
 	StringManager manager;
 	cout << "\n\n==Inverte string JOAO==\n";
