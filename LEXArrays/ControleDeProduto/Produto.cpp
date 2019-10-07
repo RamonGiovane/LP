@@ -34,7 +34,7 @@ double Produto::getPreco() {
 
 string Produto::toString() {
 	char str[500];
-	sprintf_s(str, 500, "Nome do Produto: %s\nPreço Unitário: 1.2%f - Quantiade: %d", nome.c_str(), preco, quantidade);
+	sprintf_s(str, 500, "Nome do Produto: %s\nPreço Unitário: R$%1.2f - Quantiade: %d", nome.c_str(), preco, quantidade);
 	return str;
 }
 

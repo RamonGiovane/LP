@@ -148,12 +148,16 @@
   <ItemGroup>
     <ClInclude Include="ControleDeEstoque.h" />
     <ClInclude Include="Estoque.h" />
+    <ClInclude Include="ListaDeProdutos.h" />
     <ClInclude Include="Produto.h" />
+    <ClInclude Include="TestarListarProdutos.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ControleDeEstoque.cpp" />
     <ClCompile Include="Estoque.cpp" />
+    <ClCompile Include="ListaDeProdutos.cpp" />
     <ClCompile Include="Produto.cpp" />
+    <ClCompile Include="TestarListarProdutos.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

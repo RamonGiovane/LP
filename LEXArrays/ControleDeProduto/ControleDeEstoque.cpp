@@ -1,4 +1,5 @@
 #include "ControleDeEstoque.h"
+#include "TestarListarProdutos.h"
 #include <iostream>
 #include <iomanip>
 
@@ -83,6 +84,9 @@ bool ControleDeEstoque::procurarProduto() {
 	return true;
 }
 
+void ControleDeEstoque::relatorio() {
+
+}
 bool ControleDeEstoque::printProduto(Estoque estoque, string nomeProduto) {
 	return printProduto(estoque.obterProduto(estoque.pesquisarProduto(nomeProduto)), nomeProduto);
 }
@@ -139,6 +143,8 @@ bool ControleDeEstoque::printProduto(Produto produto, string nomeDoEstoque = "")
 
 int main() {
 	setlocale(LC_ALL, "pt-BR");
+	cout << "Teste da Lista de Produtos" << endl;
+	testarListaProdutos();
 	ControleDeEstoque controleEstoque;
 	return controleEstoque.iniciar();
 }
