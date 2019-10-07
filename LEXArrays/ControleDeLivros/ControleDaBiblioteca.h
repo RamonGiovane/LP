@@ -14,6 +14,7 @@ private:
 	Biblioteca biblioteca;
 	void imprimirLivros(vector<Livro> livros);
 	void imprimirLivro(Livro livro);
+	
 };
 
 int iniciar();

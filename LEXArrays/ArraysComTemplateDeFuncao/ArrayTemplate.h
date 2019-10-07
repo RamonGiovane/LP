@@ -25,7 +25,7 @@ void descendSortArray(T vetor[], size_t sizeArray) {
 template <typename T>
 void reverseArray(T vetor[], size_t sizeArray) {
 	T elemento;
-	for (size_t inicio = 0, fim = sizeArray-1; inicio < sizeArray; inicio++, fim--) {
+	for (size_t inicio = 0, fim = sizeArray-1; inicio <= sizeArray; inicio++, fim--) {
 		elemento = vetor[fim];
 		vetor[fim] = vetor[inicio];
 		vetor[inicio] = elemento;
